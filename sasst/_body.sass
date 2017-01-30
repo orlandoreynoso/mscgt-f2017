@@ -23,7 +23,9 @@
 /*==============================*/
 @mixin ahora($color1,$color2,$color3)				
 	.exe
-		margin-top: 10px
+		margin-top: 5px
+		min-height: 110px
+		font-size: 1.0em
 	.thumb
 		width: 100%
 		height: auto
@@ -50,7 +52,7 @@
 		width: 100%
 		text-align: center
 		display: block
-		margin: 10px auto
+		margin: 5px auto 5px auto
 		&:hover
 			color: $color2
 	.label
@@ -117,6 +119,7 @@
 				padding: 20px
 				margin-bottom: 10px				
 				@include ahora($verde,$celeste,$rosa)
+				border-bottom: 1px solid $grismasclaro
 			.list
 				width: 25%
 				padding: 20px

@@ -13,7 +13,7 @@ dia 4: para el dia viernes
 //4300: Febrero 2017
 
 //$month_actually = 4170; 
-$month_actually = 2639;
+$month_actually = 4300;
 $perpage_actually = 5;
 $day = 0;
 
@@ -45,7 +45,7 @@ $the_query = new WP_Query(create_page($month_actually,$perpage_actually));
 					<span class="dia"><?php echo dia($day = $day + 1); ?></span>
 				</div>					
 			</div>
-			<div class="exe"><?php excerpt('22'); ?>...[<a href="<?php the_permalink(); ?>"> .....</a>]</div>
+			<div class="exe"><?php excerpt('20'); ?>...[<a href="<?php the_permalink(); ?>"> .....</a>]</div>
 </div>
 <?php endwhile;?>
 

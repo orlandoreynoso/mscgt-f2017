@@ -26,7 +26,7 @@ $the_query = new WP_Query(create_page($page_actually,$perpage_actually));
             <i class="icon-file fa fa-file"></i><a href="<?php bloginfo('url'); ?>/homilias/" class="cat"><?php echo $title;  ?></a>
         </div>        
     </div>
-    <div class="exe"><?php excerpt('22'); ?>...[<a href="<?php the_permalink(); ?>"> .....</a>]</div>
+    <div class="exe"><?php excerpt('20'); ?>...[<a href="<?php the_permalink(); ?>"> .....</a>]</div>
 </div>
 <?php endwhile;?>
 
