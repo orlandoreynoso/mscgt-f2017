@@ -17,7 +17,6 @@ $month_actually = 4300;
 $perpage_actually = 5;
 $day = 0;
 
-
 $the_query = new WP_Query(create_page($month_actually,$perpage_actually));
 	
 ?>		
@@ -27,6 +26,13 @@ $the_query = new WP_Query(create_page($month_actually,$perpage_actually));
     <?php 
     $id = get_permalink($month_actually);
     $title = get_the_title($month_actually);
+
+	$str = strtolower($title);
+
+	$tit = explode(' ',$str);
+
+	$titlef = implode("-", $tit);
+
 ?>
 
 			<a class="title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>	
@@ -38,7 +44,7 @@ $the_query = new WP_Query(create_page($month_actually,$perpage_actually));
 				</div>
 				<div class="ic-2">
 					<i class="icon-file2 fa fa-link"></i>				
-					<a href="<?php bloginfo('url'); ?>/reflexiones/<?php echo $title; ?>" class="cat"><?php echo $title;  ?></a>					
+					<a href="<?php bloginfo('url'); ?>/reflexiones/<?php echo $titlef; ?>" class="cat"><?php echo $title;  ?></a>					
 				</div>
 				<div class="ic-3">
 					<i class="icon-file4 fa fa-clock-o"></i>
