@@ -32,9 +32,9 @@ Template Post Type: post, page, product
 			<div class="titulo"><h3>Espiritualidad</h3></div>
 			<div class="col-md-12 reflexiones">
 					<?php include TEMPLATEPATH.'/libs/homilias.php'; ?>
-					<?php //include TEMPLATEPATH.'/libs/reflexiones.php'; ?>
-					<?php include TEMPLATEPATH.'/libs/mes1.php'; ?>
-					<?php include TEMPLATEPATH.'/libs/mes2.php'; ?>										
+					<?php include TEMPLATEPATH.'/libs/reflexiones.php'; ?>
+					<?php //include TEMPLATEPATH.'/libs/mes1.php'; ?>
+					<?php //include TEMPLATEPATH.'/libs/mes2.php'; ?>										
 			</div>
 		</div>
 	</div>

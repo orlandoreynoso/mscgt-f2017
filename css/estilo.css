@@ -384,7 +384,7 @@ input[type=number]::-webkit-outer-spin-button {
               box-shadow: 0 0 8px rgba(0, 120, 240, 0.8); }
         .espiritualidad .cuadro-reflexiones .reflexiones .actual .title {
           font-family: "Oswald", sans-serif;
-          font-size: 1.55em;
+          font-size: 1.24em;
           color: #46b271;
           width: 100%;
           text-align: center;
@@ -488,7 +488,7 @@ input[type=number]::-webkit-outer-spin-button {
               box-shadow: 0 0 8px rgba(0, 120, 240, 0.8); }
         .last .cuadro-last .contenido .actual .title {
           font-family: "Oswald", sans-serif;
-          font-size: 1.55em;
+          font-size: 1.24em;
           color: #009FFF;
           width: 100%;
           text-align: center;
@@ -628,7 +628,7 @@ input[type=number]::-webkit-outer-spin-button {
               box-shadow: 0 0 8px rgba(0, 120, 240, 0.8); }
         .crecimiento .cuadro-crecimiento .contenido .actual .title {
           font-family: "Oswald", sans-serif;
-          font-size: 1.55em;
+          font-size: 1.24em;
           color: #009FFF;
           width: 100%;
           text-align: center;
@@ -1403,7 +1403,10 @@ footer {
   .recomen .c-recomendaciones {
     width: 100%; }
     .recomen .c-recomendaciones .list {
-      width: 50%; } }
+      width: 50%; }
+
+  .navbar-header {
+    display: block; } }
 @media screen and (max-width: 800px) {
   .groupings .c-agrupaciones {
     width: 100%; }
